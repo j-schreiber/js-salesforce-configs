@@ -6,9 +6,9 @@ Similar to `npm ci`, the scratch def is committed and does not dynamically chang
 
 It is recommended to have the following tools installed on your machine
 
-    - **wget**: Retrieve file from scratch def
-    - **jq**: Modify the scratch def file after retrieval
-    - **prettier**: Format file after retrieval
+- **wget**: Retrieve file from scratch def
+- **jq**: Modify the scratch def file after retrieval
+- **prettier**: Format file after retrieval
 
 ## How To Integrate in Setup
 
