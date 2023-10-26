@@ -1,0 +1,13 @@
+{
+  "name": "js-salesforce-configs",
+  "description": "Central repository to manage and provision scratch org definition files for package-based development",
+  "scripts": {
+    "prettier:format": "./node_modules/.bin/prettier --write .",
+    "prettier:check:ci": "./node_modules/.bin/prettier --check ."
+  },
+  "author": "Jannis Schreiber",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
