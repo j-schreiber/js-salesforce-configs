@@ -20,4 +20,6 @@ wget https://raw.githubusercontent.com/j-schreiber/js-salesforce-configs/main/sc
 jq --arg a "${scratchOrgName}" '.orgName = $a' default-scratch-def.json > config/default-scratch-def.json
 rm -f default-scratch-def.json
 ./node_modules/.bin/prettier --write 'config/default-scratch-def.json'
+git add config/default-scratch-def.json
+git commit -m 'ops: update to latest scratch org def'
 ```
