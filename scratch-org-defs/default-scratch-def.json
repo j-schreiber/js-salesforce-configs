@@ -5,7 +5,8 @@
       "StateAndCountryPicklist",
       "PersonAccounts",
       "FieldService:1",
-      "ServiceCloud"
+      "ServiceCloud",
+      "AdditionalFieldHistory:40"
     ],
     "country": "DE",
     "language": "en_US",
