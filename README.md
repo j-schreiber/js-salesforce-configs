@@ -9,6 +9,22 @@ It is recommended to have the following tools installed on your machine
 - **wget**: Retrieve file from scratch def
 - **jq**: Modify the scratch def file after retrieval
 - **prettier**: Format file after retrieval
+- **bats**: Testing utility for [shell scripts](deploy-scripts)
+
+### Shell Dev Environment
+
+For developing bash scripts, use Docker. Strongly discouraged to develop shell scripts on your local machine, because it may use a different bash version (or entirely different shell) that the one that is being used in our CI.
+
+```bash
+# Open the "docker hub", this will automatically start the background daemon
+open -a Docker
+
+# check if deamon is running
+docker info
+
+# launch the local dev environment
+docker compose up -d && docker compose exec shelldeveloper bash
+```
 
 ## How To Integrate in Setup
 

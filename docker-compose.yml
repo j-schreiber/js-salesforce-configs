@@ -1,0 +1,9 @@
+services:
+  shelldeveloper:
+    platform: "linux/amd64"
+    build:
+      dockerfile: ./Dockerfile
+    volumes:
+      - ${PWD}:/home/project
+    command: tail -f /dev/null
+    working_dir: /home/project
