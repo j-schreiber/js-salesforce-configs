@@ -1,0 +1,3 @@
+[submodule "tests/mocks/testsubmodules/demo-package"]
+	path = tests/mocks/testsubmodules/demo-package
+	url = https://github.com/j-schreiber/circleci-orb-demo-package.git
