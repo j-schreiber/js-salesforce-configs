@@ -12,17 +12,7 @@ It is recommended to have the following tools installed on your machine
 
 ## How To Integrate in Setup
 
-Copy this snippet in a local script that is executed manually. Do not integrate this into your CI.
-
-```bash
-scratchOrgName="YOUR_SCRATCH_ORG_NAME"
-wget https://raw.githubusercontent.com/j-schreiber/js-salesforce-configs/main/scratch-org-defs/default-scratch-def.json
-jq --arg a "${scratchOrgName}" '.orgName = $a' default-scratch-def.json > config/default-scratch-def.json
-rm -f default-scratch-def.json
-./node_modules/.bin/prettier --write 'config/default-scratch-def.json'
-git add config/default-scratch-def.json
-git commit -m 'ops: update to latest scratch org def'
-```
+Use the provided template [update-scratch-def.sh](scripts/update-scratch-def.sh) and copy it's contents to your local package directory. It is not recommended to integrate this in CI.
 
 ## Notes
 
