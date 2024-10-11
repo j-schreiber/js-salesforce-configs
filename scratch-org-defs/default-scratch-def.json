@@ -1,51 +1,50 @@
 {
-    "orgName": "< REPLACE WITH PACKAGE SPECIFIC NAME >",
-    "edition": "Enterprise",
-    "features": [
-      "StateAndCountryPicklist",
-      "PersonAccounts",
-      "FieldService:1",
-      "ServiceCloud",
-      "AdditionalFieldHistory:40"
-    ],
-    "country": "DE",
-    "language": "en_US",
-    "settings": {
-      "languageSettings": {
-        "enableTranslationWorkbench": true
-      },
-      "pathAssistantSettings": {
-        "pathAssistantEnabled": true
-      },
-      "quoteSettings": {
-        "enableQuote": true
-      },
-      "enhancedNotesSettings": {
-        "enableEnhancedNotes": true
-      },
-      "apexSettings": {
-        "enableApexApprovalLockUnlock": true
-      },
-      "customAddressFieldSettings": {
-        "enableCustomAddressField": true
-      },
-      "currencySettings": {
-        "enableMultiCurrency": true
-      },
-      "entitlementSettings": {
-        "enableEntitlements": true
-      },
-      "fieldServiceSettings": {
-        "enableWorkOrders": true,
-        "fieldServiceOrgPref": true,
-        "enableWorkPlansAutoGeneration": true
-      },
-      "emailAdministrationSettings": {
-        "enableEnhancedEmailEnabled": true
-      },
-      "mobileSettings": {
-        "enableS1EncryptedStoragePref2": false
-      }
+  "orgName": "< REPLACE WITH PACKAGE SPECIFIC NAME >",
+  "edition": "Enterprise",
+  "features": [
+    "StateAndCountryPicklist",
+    "PersonAccounts",
+    "FieldService:1",
+    "ServiceCloud",
+    "AdditionalFieldHistory:40"
+  ],
+  "country": "DE",
+  "language": "en_US",
+  "settings": {
+    "languageSettings": {
+      "enableTranslationWorkbench": true
+    },
+    "pathAssistantSettings": {
+      "pathAssistantEnabled": true
+    },
+    "quoteSettings": {
+      "enableQuote": true
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    },
+    "apexSettings": {
+      "enableApexApprovalLockUnlock": true
+    },
+    "customAddressFieldSettings": {
+      "enableCustomAddressField": true
+    },
+    "currencySettings": {
+      "enableMultiCurrency": true
+    },
+    "entitlementSettings": {
+      "enableEntitlements": true
+    },
+    "fieldServiceSettings": {
+      "enableWorkOrders": true,
+      "fieldServiceOrgPref": true,
+      "enableWorkPlansAutoGeneration": true
+    },
+    "emailAdministrationSettings": {
+      "enableEnhancedEmailEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
     }
   }
-  
+}
