@@ -24,7 +24,9 @@
       "enableEnhancedNotes": true
     },
     "apexSettings": {
-      "enableApexApprovalLockUnlock": true
+      "enableApexApprovalLockUnlock": true,
+      "enableDisableParallelApexTesting": true,
+      "enableGaplessTestAutoNum": true
     },
     "customAddressFieldSettings": {
       "enableCustomAddressField": true
