@@ -28,6 +28,10 @@
       "enableDisableParallelApexTesting": true,
       "enableGaplessTestAutoNum": true
     },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true,
+      "enableLightningPreviewPref": true
+    },
     "customAddressFieldSettings": {
       "enableCustomAddressField": true
     },
